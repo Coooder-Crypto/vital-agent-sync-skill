@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.2 - 2026-07-19
+
+- 固定安装已发布的 `vitalmcp@0.5.2`。
+- 固定安装时使用的 Node 路径和原生模块 ABI，避免 WorkBuddy Node 与系统 Node 混用。
+- 在 WorkBuddy 沙箱无法激活 launchd 时暂停流程，只交付运行时生成的 Terminal 恢复命令。
+- 要求用户在 WorkBuddy 中审批并重载 MCP，且原生 `vital_agent_status` 验证成功后才能继续配对。
+- 禁止修改 MCP 审批存储、递归清理 quarantine 属性或绕过 MCP 直接读取 SQLite。
+
 ## 0.5.1 - 2026-07-18
 
 - 固定安装已发布的 `vitalmcp@0.5.1`。

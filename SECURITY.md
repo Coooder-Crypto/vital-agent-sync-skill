@@ -2,7 +2,7 @@
 
 ## Supported version
 
-当前支持 Skill `0.5.2`，对应固定运行时 `vitalmcp@0.5.2`。
+当前支持 Skill `0.5.3`，对应固定运行时 `vitalmcp@0.5.3`。
 
 ## Reporting a vulnerability
 
